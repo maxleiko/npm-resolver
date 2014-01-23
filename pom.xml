@@ -20,8 +20,8 @@
 
     <scm>
         <connection>scm:git:git@github.com:maxleiko/npm-resolver.git</connection>
-        <developerConnection>scm:git:git@github.com:kevoree/npm-resolver.git</developerConnection>
-        <url>http://github.com/kevoree/npm-resolver.git</url>
+        <developerConnection>scm:git:git@github.com:maxleiko/npm-resolver.git</developerConnection>
+        <url>http://github.com/maxleiko/npm-resolver.git</url>
     </scm>
 
     <parent>
