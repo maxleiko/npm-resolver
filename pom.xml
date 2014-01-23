@@ -2,13 +2,47 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.kevoree</groupId>
+    <groupId>org.kevoree.npm</groupId>
     <artifactId>org.kevoree.npm.resolver</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>org.kevoree.npm.resolver</name>
     <url>http://maven.apache.org</url>
+
+    <licenses>
+        <license>
+            <name>
+                GNU Library or Lesser General Public License (LGPL)
+            </name>
+            <url>http://www.gnu.org/licenses/lgpl.html</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:maxleiko/npm-resolver.git</connection>
+        <developerConnection>scm:git:git@github.com:kevoree/npm-resolver.git</developerConnection>
+        <url>http://github.com/kevoree/npm-resolver.git</url>
+    </scm>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <developers>
+        <developer>
+            <name>Maxime Tricoire</name>
+            <id>maxleiko</id>
+            <email>max.tricoire@gmail.com</email>
+            <roles>
+                <role>admin</role>
+                <role>developer</role>
+            </roles>
+            <timezone>+2</timezone>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
