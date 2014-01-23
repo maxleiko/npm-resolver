@@ -3,7 +3,7 @@
 
     <groupId>org.kevoree.npm</groupId>
     <artifactId>org.kevoree.npm.resolver</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>org.kevoree.npm.resolver</name>
