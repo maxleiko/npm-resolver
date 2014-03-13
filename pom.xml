@@ -1,13 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.kevoree.npm</groupId>
-    <artifactId>org.kevoree.npm.resolver</artifactId>
+    <groupId>org.kevoree.extra</groupId>
+    <artifactId>npm-resolver</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>org.kevoree.npm.resolver</name>
+    <name>npm-resolver</name>
     <url>http://maven.apache.org</url>
+
+    <organization>
+        <name>Kevoree Project</name>
+        <url>http://kevoree.org</url>
+    </organization>
 
     <licenses>
         <license>
